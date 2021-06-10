@@ -1,0 +1,202 @@
+body{
+    background-color: #DEF2F1;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 25.4px;
+  }
+  .sidebar{
+    position:fixed;
+    top:100px;
+    left:0;
+    width:380px;
+    height:100%;
+    background-color: #1a6d7a;
+    border: solid;
+    border-color: #00363F;
+    border-top: 0;
+    border-left: 0;
+    text-align: center;
+}
+
+.label_side{
+  color: #A8D0E6;
+}
+
+.middle{
+  position: fixed;
+  top:20%;
+  left: 35%;;
+  width:700px;
+  height:100%;
+}
+
+h1{
+  text-align: center;
+  color: #A8D0Ef;
+  margin-top: 30px;
+}
+
+  .number_field{
+    text-align: center;
+    width: 14%;
+    height: 22px;
+    padding: 7px 3px;
+    margin: 7px 8px;
+    border-radius: 28px;
+    border-style: ridge;
+    border-color: #A8D0E6;
+    outline: none;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    font-weight: bolder;
+  }
+
+  .sell_number_field{
+    text-align: center;
+    width: 30%;
+    height: 22px;
+    padding: 7px 3px;
+    margin: 7px 8px;
+    border-radius: 28px;
+    border-style: ridge;
+    border-color: #A8D0E6;
+    outline: none;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    font-weight: bolder;
+  }
+
+  hr{
+    border: 2px solid #00363F;
+    border-radius: 8px;
+  }
+
+  button{
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    height: 35px;
+    border-radius: 13px;
+    background-color: #005762;
+    border-style: ridge;
+    border-color: #A8D0E6;
+    color: #A8D0E6;
+    display: inline-block;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    font-size: 17px;
+    outline: none;
+  }
+
+  button:hover{
+    transition: 0.65s;
+    background-color: #A8D0E6;
+    color: black;
+  }
+
+  li{
+    list-style: none;
+    text-align: center;
+  }
+
+  header,footer{
+    background: #00363F;
+    border: 1px groove #A8D0Ef;
+    border-left: 0;
+    border-left: 0;
+  }
+
+  header{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    left: 0;
+    border-top: 0;
+  }
+
+  footer{
+    text-align: center;
+    width: 100%;
+  	position: fixed;
+  	bottom: 0px;
+  	height: 55px;
+    left: 0;
+    border-bottom: 0;
+  }
+
+  p{
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #A8D0Ef;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover{
+    transition: 0.20s;
+    color: #005762;
+  }
+h3{
+  font-size: 16px;
+  font-weight: 18%;
+  margin-top: 0px;
+  color: #17252A;
+}
+
+.sign_out{
+  margin-top: 40px;
+  background-color: #424354;
+}
+
+.sign_out:hover{
+  transition: 0.35s;
+  background-color: #FF585B;
+  border-color: #1a6d7a;
+  color: black;
+}
+
+.bottom_div{
+  position:fixed;
+  top:77%;
+  left:23.2%;
+  width:80%;
+  height:20%;
+}
+
+.update_balance{
+  width: 150px;
+  background: #424342;
+}
+
+.update_balance:hover{
+  transition: 0.3s;
+  background-color: #FF665F;
+  border-color: #1a6d7a;
+  color: black;
+}
+
+#add_balance:hover{
+  transition: 0.3s;
+  background-color: #00ED5F;
+  border-color: #1a6d7a;
+  color: black;
+}
+
+.sell_button{
+  border-style: solid;
+  border-color: #00ACB2;
+  background-color: #005762;
+  color: #A8D0E6;
+}
+
+.sell_button:hover{
+  transition: 0.65s;
+  background-color: #00ED5F;
+  border-color: #00EDBE;
+  color: #17252A;
+}
